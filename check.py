@@ -32,4 +32,5 @@ def main(args):
             print(f'{password} has not been hacked.')
     return 'done!'
 
-main(sys.argv[1:])
+if __name__ == '__main__':
+    sys.exit(main(sys.argv[1:]))
